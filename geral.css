@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(55, 145, 70);
+    color: rgb(222, 248, 23);
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    padding: 20px 50px;
+}
+a{
+    color: rgb(250, 251, 255);
+    text-decoration: none;
+}
+header img{
+    border: 6px solid rgb(150, 143, 1);
+   border-radius: 18px; 
+   box-shadow: 0px 10px 40px #f6f66c;
+   width: 400px;
+   height: 200px;
+}
+.center{
+ text-align:center ;
+}
+.center2{
+    text-align: center;
+}
+.center3{
+    text-align: center;
+}
+.imagem{
+    display: flex;
+    justify-content:space-around;
+}
+h1{
+text-align: center;
+color: blue;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+h3{
+    color: rgb(40, 40, 213);
+}
+footer img{
+      width: 30px;
+      height: 45px;
+      border-radius: 50px;
+      border: 3px blue;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer p{
+margin: 20px;
+color: white;
+}
+.imagem:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.5);
+}
+
+.container:hover > img{
+    opacity: .10;
+    transform: scale(2);
+}
+.container1:hover img{
+    opacity: .10;
+    transform: scale(2);
+}
+.container2:hover > img{
+    opacity: .10;
+    transform: scale(2);
+}
